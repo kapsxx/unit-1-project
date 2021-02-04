@@ -1,0 +1,473 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+    font: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+.wrapper_1,
+.wrapper_3,
+.wrapper_11 {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color: #092553;
+    background: linear-gradient(to bottom, #092553 0%, #21b3df 95.5%) #009beb;
+    color: white;
+}
+
+/* Style for wrapper_1 and it's child nodes */
+.top,
+.wrapper_9 .top,
+.wrapper_11>.join {
+    font-size: 50px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.top>strong {
+    color: #00a9fd;
+}
+
+.top>p {
+    font-size: 26px;
+    line-height: 70px;
+}
+
+.mid {
+    font-size: 50px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.mid {
+    font-size: 18px;
+}
+
+.mid>input,
+.mid>button {
+    padding: 2.2% 3.5% 2.2% 3.5%;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.mid>button {
+    padding: 2% 5% 2% 5%;
+    /* background-color: #00a9fd; */
+    background: linear-gradient(to bottom, #0072ec 0%, #21b3df 95.5%) #009beb;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    border: 2px solid #00a9fd;
+}
+
+.bottom {
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
+    margin-bottom: -7.5%;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+/* Style for wrapper_2 and it's child nodes */
+.wrapper_2,
+.wrapper_4,
+.wrapper_5,
+.wrapper_6,
+.wrapper_7,
+.wrapper_8,
+.wrapper_9 {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color: white;
+    color: white;
+    margin-top: 7%;
+}
+
+.wrapper_2>.left {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid red;
+    text-align: right;
+    float: left;
+}
+
+.wrapper_2>.right {
+    width: 32%;
+    box-sizing: border-box;
+    border: 2px solid red;
+    float: left;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+}
+
+.wrapper_2>.right>div:nth-child(1),
+.wrapper_2>.right>div:nth-child(2) {
+    font-size: 46px;
+    line-height: 70px;
+}
+
+.wrapper_2>.right>div:nth-child(3) {
+    margin-top: 4%;
+}
+
+.wrapper_2>.right strong {
+    color: #00a9fd;
+}
+
+.wrapper_2>.right input {
+    padding: 2.5% 3.5% 2.5% 3.5%;
+    border-radius: 8px;
+    border: 1px solid #00a9fd;
+    font-size: 15px;
+    margin-top: 7%;
+}
+
+.wrapper_2>.right button {
+    padding: 2.5% 8% 2.5% 8%;
+    border-radius: 8px;
+    border: 2px solid #00a9fd;
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: #00a9fd; */
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 20%;
+    background: linear-gradient(to bottom, #0072ec 0%, #21b3df 95.5%) #009beb;
+}
+
+/* Style for wrapper_3 and it's child nodes */
+.wrapper_3>.top {
+    margin-top: 5%;
+    color: white;
+}
+
+.wrapper_3>.mid {
+    /* box-sizing: border-box; */
+    width: 70%;
+    height: 135vh;
+    margin-top: 3%;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    row-gap: 3%;
+}
+
+.wrapper_3>.mid .mid_element {
+    border: 2px solid red;
+}
+
+.mid_element_box {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    height: min-content;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.mid_element_box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.mid_element_box div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.mid_element_box a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mid_element>.mid_element_box>div:nth-child(2),
+.mid_element>.mid_element_box>div:nth-child(3) {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.box-2 img {
+    width: 104%;
+}
+
+.box-5 img,
+.box-8 img {
+    width: 103%;
+}
+
+.box-3 img,
+.box-6 img,
+.box-9 img {
+    width: 110%;
+}
+
+.wrapper_3>.bottom,
+.wrapper_8 {
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+    text-align: center;
+    padding: 2.2% 3.5% 2.2% 3.5%;
+    font-size: 18px;
+    border: 0px;
+}
+
+.bottom>button {
+    padding: 2% 5% 2% 5%;
+    /* background-color: #00a9fd; */
+    background: linear-gradient(to bottom, #0072ec 0%, #21b3df 95.5%) #009beb;
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.bottom input {
+    padding: 2.5% 3.5% 2.5% 3.5%;
+    border-radius: 8px;
+    border: 1px solid #00a9fd;
+    font-size: 15px;
+    margin-top: 7%;
+}
+
+/* Style for wrapper_4 and it's child nodes */
+.wrapper_4,
+.wrapper_5,
+.wrapper_6,
+.wrapper_7,
+.wrapper_8 {
+    width: 70%;
+    margin: auto;
+    margin-top: 0%;
+    color: black;
+}
+
+.wrapper_4>.top p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 3%;
+    color: #747474;
+}
+
+/* Style for wrapper_5 and its child nodes along with wrapper_6 */
+.wrapper_5 div:nth-child(1),
+.wrapper_6 div:nth-child(1) {
+    text-align: center;
+    font-size: 30px;
+    color: #5c5c5c;
+}
+
+.wrapper_5 > div:nth-child(1){
+    margin-bottom: 3%;
+}
+
+.wrapper_5 > div:nth-child(2){
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+/* Style for wrapper_7 and its child nodes */
+.wrapper_7>div>div {
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.l-f {
+    color: #5c5c5c;
+    font-weight: bold;
+    padding: 1% 1% 1% 1%;
+    float: left;
+}
+
+.max {
+    background-color: rgb(240, 240, 240);
+    width: 95%;
+}
+
+.min {
+    background-color: rgb(220, 220, 220);
+    text-align: center;
+    width: 5%;
+}
+
+.event-info {
+    display: none;
+    padding: 1% 6% 1% 2%;
+    color: #747474;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* Style for wrapper_8 and its child nodes */
+.wrapper_8 {
+    margin-bottom: 4%;
+}
+
+/* Style for wrapper_9 and its child nodes */
+.wrapper_9>div {
+    color: black;
+    font-weight: bold;
+}
+
+.wrapper_9 p {
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    color: #747474;
+}
+
+.wrapper_9 .top {
+    margin-bottom: 4%;
+}
+
+.wrapper_10 {
+    margin-bottom: 4%;
+}
+
+.wrapper_10>.grid-10 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 24.2% 24.2% 24.2% 24.2%;
+    grid-template-rows: auto;
+    gap: 1%;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.grid-10-element {
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 9px;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 15%);
+}
+
+.grid-img,
+.img-info {
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 100%;
+    height: 50%;
+}
+
+.img-info {
+    box-sizing: border-box;
+    border: 2px solid red;
+    width: 100%;
+    height: 50%;
+    color: #747474;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0% 4% 0% 4%;
+}
+
+.img-info strong {
+    color: black;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.grid-img img {
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.join {
+    margin-bottom: 2% !important;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.join-below {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.join-below>div:nth-child(1),
+.join-below>div:nth-child(2) {
+    float: left;
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.join-below > div:nth-child(1) {
+    padding: 0% 0% 0% 10%;
+}
+
+.join-below img {
+    width: 100%;
+}
+
+.join-below > div:nth-child(2) {
+    padding: 1% 17% 1% 2%;
+}
+
+.join-button {
+    width: 77%;
+    border: 2px solid red;
+    margin-top: 6%;
+    padding: 2% 2% 2% 7%;
+}
+
+.join-button button {
+    width: 49%;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    padding: 3% 2% 3% 2%;
+}
+
+.last {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid red;
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.last > div:nth-child(1) {
+    margin-bottom: 1%;
+}
+
+.last > div:nth-child(2) {
+    margin-bottom: 3%;
+}
+
+.wrapper_11 {
+    background: radial-gradient(#03afea 0%, #0483e5 100%) #1ca2fa;
+}
+
+.clear {
+    clear: both;
+}
