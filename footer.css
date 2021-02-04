@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+footer#mainFooter {
+    background-color:  #002638;
+    padding: 65px 0px 0px;
+    height:auto; 
+}
+
+.containerFooter {
+    display:flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto 55px !important;
+
+}
+.columnFoot {
+    width: 100%;
+}
+ .listFoot {
+    margin: 0px 15px 30px;
+    line-height: 14px;
+    list-style-type: none;
+}
+.listFoot li {
+    margin-bottom: 10px;
+}
+.listFoot li a {
+    color: #8AA2B3;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 400; 
+}
+.listFoot li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.headFoot {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
