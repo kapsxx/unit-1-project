@@ -43,3 +43,45 @@ footer#mainFooter {
     margin-bottom: 10px;
     font-size: 14px;
 }
+.ayoaApproval img {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    max-height: 90px;
+    transition: opacity 0.3s ease-in-out 0s;
+}
+.ayoaApproval {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .containerFooter {
+        display: flex;
+        justify-content: start;
+        text-align: left;
+        max-width: 1000px;
+        margin: 0 auto 62px !important;
+        flex-wrap: wrap;
+    }
+
+    .columnFoot {
+        width: 33%;
+    }
+    .columnFoot ul {
+        padding-left: 22px;
+    }
+    .ayoaApproval {
+        flex-direction: column;
+    }
+}
+.ayoaApproval img:hover {
+    opacity: 0.5;
+}
+ 
