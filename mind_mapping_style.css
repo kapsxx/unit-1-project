@@ -10,7 +10,7 @@
 .wrapper_11 {
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px solid #092553;
     background-color: #092553;
     background: linear-gradient(to bottom, #092553 0%, #21b3df 95.5%) #009beb;
     color: white;
@@ -22,7 +22,7 @@
 .wrapper_11>.join {
     font-size: 50px;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: fit-content;
     margin: auto;
     margin-top: 5%;
@@ -41,7 +41,7 @@
 .mid {
     font-size: 50px;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 50%;
     margin: auto;
     text-align: center;
@@ -75,7 +75,7 @@
     width: 80%;
     margin-bottom: -7.5%;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* Style for wrapper_2 and it's child nodes */
@@ -88,7 +88,7 @@
 .wrapper_9 {
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: white;
     color: white;
     margin-top: 7%;
@@ -97,7 +97,7 @@
 .wrapper_2>.left {
     width: 50%;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: right;
     float: left;
 }
@@ -105,7 +105,7 @@
 .wrapper_2>.right {
     width: 32%;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     float: left;
     font-size: 18px;
     line-height: 30px;
@@ -158,7 +158,7 @@
     width: 70%;
     height: 135vh;
     margin-top: 3%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
@@ -166,7 +166,7 @@
 }
 
 .wrapper_3>.mid .mid_element {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .mid_element_box {
@@ -175,7 +175,7 @@
     height: 100%;
     height: min-content;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .mid_element_box img {
@@ -222,7 +222,7 @@
 .wrapper_3>.bottom,
 .wrapper_8 {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 50%;
     margin: auto;
     margin-bottom: 2%;
@@ -278,6 +278,10 @@
     color: #5c5c5c;
 }
 
+.wrapper_5 {
+    overflow: hidden;
+}
+
 .wrapper_5>div:nth-child(1) {
     margin-bottom: 3%;
 }
@@ -290,7 +294,7 @@
 /* Style for wrapper_7 and its child nodes */
 .wrapper_7>div>div {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .l-f {
@@ -353,12 +357,12 @@
     grid-template-rows: auto;
     gap: 1%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .grid-10-element {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 9px;
     box-shadow: 0 5px 25px rgb(0 0 0 / 15%);
 }
@@ -366,14 +370,14 @@
 .grid-img,
 .img-info {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 50%;
 }
 
 .img-info {
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 50%;
     color: #747474;
@@ -406,13 +410,13 @@
 .join-below {
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .join-below>div:nth-child(1),
 .join-below>div:nth-child(2) {
     float: left;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     width: 50%;
     font-size: 18px;
@@ -433,7 +437,7 @@
 
 .join-button {
     width: 77%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 6%;
     padding: 2% 2% 2% 7%;
 }
@@ -449,7 +453,7 @@
 .last {
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 2% 2% 2% 2%;
     text-align: center;
     line-height: 30px;
@@ -472,7 +476,7 @@
     clear: both;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 675px) {
     * {
         font-size: 16px;
     }
@@ -515,7 +519,7 @@
     .wrapper_2 .right {
         width: 100%;
         font-size: 16px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         border-radius: 8px;
         margin-top: 3%;
         padding: 2% 2% 2% 2%;
@@ -546,7 +550,7 @@
         width: 100%;
         height: 1000vh;
         margin-top: 3%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto auto auto auto auto;
@@ -575,7 +579,7 @@
         margin-top: 2%;
     }
     .mid_element_box, .wrapper_6 {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         border-radius: 8px;
     }
     .wrapper_6 > div:nth-child(1) {
@@ -598,7 +602,7 @@
         width: 100%;
         /* height: 1000vh; */
         /* margin-top: 3%; */
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto;
@@ -613,7 +617,7 @@
     .join-below>div:nth-child(1),
 .join-below>div:nth-child(2) {
     display: block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-sizing: border-box;
     width: 100%;
     font-size: 16px;
@@ -633,4 +637,21 @@
     margin-top: 8%;
     margin-bottom: 6%;
 }
+}
+
+
+
+.mid > button:hover, .wrapper_2 > .right button:hover, .bottom > button:hover {
+    background: linear-gradient(rgb(0, 97, 201) 0%, rgb(33, 179, 223) 95.5%) rgb(0, 155, 235);
+    cursor: pointer;
+}
+
+.join-button button:nth-child(1):hover {
+    background: linear-gradient(to bottom, #6ec23d 0%, #3fc133 100%) #68c54f !important;
+    cursor: pointer;
+}
+
+.join-button button:nth-child(2):hover {
+    background: linear-gradient(rgb(0, 39, 80) 0%, rgb(0, 137, 179) 95.5%) rgb(0, 60, 90);
+    cursor: pointer;
 }
