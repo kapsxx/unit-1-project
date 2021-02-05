@@ -561,3 +561,7 @@ position: relative;
     font-size: 14px;
     color: #5c5c5c;
 }
+.first > div:nth-child(1)
+{
+    text-align: left;
+}
