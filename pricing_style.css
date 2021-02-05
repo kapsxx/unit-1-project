@@ -139,7 +139,7 @@
             font-weight: bold;
             color: #f6246f;
         }
-        ul
+        #cont-pricing ul
         {
             width: 60%;
             margin: auto;
@@ -179,7 +179,7 @@
         {
             background-color: #fc126d;
         } 
-        li{
+        #cont-pricing li{
             color: #5c5c5c;
         }
         #cont-planselect h2+p+p{
@@ -427,7 +427,7 @@
             size: "300";
         }
 
-        strong{
+        #cont-pricing strong{
             color: #00a9fd;
         }
 
