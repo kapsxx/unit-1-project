@@ -22,6 +22,10 @@ function generate_feature()
 {
 
 }
+function enteruser(number)
+{
+
+}
 var btn_feature = document.getElementById("feature-btn");
 btn_feature.addEventListener('click',generate_feature);
 btn_feature.addEventListener('mouseover',change_feature_color);
