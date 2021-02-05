@@ -5,6 +5,10 @@
     font: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
+.wrapper_1 {
+    margin-top: 0%;
+}
+
 .wrapper_1,
 .wrapper_3,
 .wrapper_11 {
@@ -487,9 +491,23 @@
     clear: both;
 }
 
+.wrapper_1 {
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 860px) {
+    .wrapper_1 {
+        margin-top: 12%;
+    }   
+}
+
 @media only screen and (max-width: 675px) {
     * {
         font-size: 16px;
+    }
+
+    .wrapper_1 {
+        margin-top: 0%;
     }
 
     nav, #header img, #header {
