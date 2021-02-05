@@ -102,6 +102,21 @@
     float: left;
 }
 
+.wrapper_2 > .left img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
+  }
+
 .wrapper_2>.right {
     width: 32%;
     box-sizing: border-box;
@@ -163,10 +178,6 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
     row-gap: 3%;
-}
-
-.wrapper_3>.mid .mid_element {
-    /* border: 2px solid red; */
 }
 
 .mid_element_box {
@@ -615,7 +626,7 @@
         padding-right: 0%;
     }
     .join-below>div:nth-child(1),
-.join-below>div:nth-child(2) {
+    .join-below>div:nth-child(2) {
     display: block;
     /* border: 2px solid red; */
     box-sizing: border-box;
@@ -623,20 +634,20 @@
     font-size: 16px;
     line-height: 24px;
     padding: 1% 3% 1% 3%;
-}
-.last img {
+    }
+    .last img {
     width: 30% !important;
-}
-.last p {
+    }
+    .last p {
     font-size: 14px !important;
     line-height: 22px !important;
-}
-.join-button {
+    }
+    .join-button {
     padding: 1%;
     margin: auto;
     margin-top: 8%;
     margin-bottom: 6%;
-}
+    }
 }
 
 
@@ -654,4 +665,22 @@
 .join-button button:nth-child(2):hover {
     background: linear-gradient(rgb(0, 39, 80) 0%, rgb(0, 137, 179) 95.5%) rgb(0, 60, 90);
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 675px) {
+    .wrapper_2 > .left img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        animation-name: example;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes example {
+        0%   {left:0px; top:0px;}
+        50%  {left:30px; top:0px;}
+        100% {left:0px; top:0px;}
+      }
 }
