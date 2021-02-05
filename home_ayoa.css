@@ -1,0 +1,563 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+#ayoaHeader {
+    padding-top: 40px;
+     /* background: radial-gradient(#03afea 1%, #1460c7 100%) 0- 45px #1ca2fa; */
+     position: relative;
+     font-size: 100%;
+     font: inherit;
+     background: linear-gradient(to bottom, #092553 0%, #21b3df 95.5%) #009beb;
+
+}
+div {
+    display: block;
+}
+
+.heading {
+     text-align: center;
+}
+
+#ayoaHeader h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 5px 15px 25px;
+}
+
+h1 {
+     line-height: 100%;
+     
+}
+
+#ayoaHeader h2 {
+ color: whitesmoke;
+ font-weight: 400;
+ max-width: 800px;
+ margin: 0 auto 25px;
+ line-height: 36px;
+ text-align: center;
+ padding-right: 20px;
+ padding-left: 20px;
+ font-size: 20pt;
+}
+
+#buttonHeader {
+    display:flex;
+    width: auto;
+    border-radius: 8px;
+    justify-content:center;
+    max-width: 565px;
+    margin: 0 auto 28px;
+    
+}
+
+#buttonHeader a {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.firstBtn {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 35px 12px;
+    color: white;
+    border: 2px solid rgb(211, 235, 245);
+    border-radius: 08px;
+    background: linear-gradient(to bottom, rgb(69, 255, 69) 0%, #3fc133 100%) #68c54f;
+    background-color: rgb(99, 243, 99);
+    margin-bottom: 10px;
+    display: inline-block;
+     
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font: inherit;
+    vertical-align: baseline;
+    cursor: pointer;
+
+}
+
+.secondBtn {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: rgb(3, 3, 139);
+    border: 2px solid rgb(11, 11, 143);
+    padding: 10px 35px 12px;
+}
+
+
+ #companiesLogo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 1 auto;
+     font-size: 100%;
+     font: inherit;
+     flex-direction:row;
+     vertical-align: baseline;
+ }  
+
+ .logos {
+     max-width: 130px;
+     margin: 0;
+     font-size: 100%;
+     margin-left: 16px;
+     margin-right: 20px;
+ }   
+ 
+ img {
+     max-width: 70%;
+     color: white
+ }
+
+   
+ .pageReviews {
+
+     padding-top: 100px;
+     background-color: white;
+     display:flex;
+     gap: 30px;
+     margin: auto;
+ }
+
+  .span  {
+     float: left;
+     display:block;
+     min-height: 30px;
+     width: 23%;
+     box-sizing: border-box;
+ }
+ 
+ .pageReviews {
+     margin-left: auto;
+     margin-right: auto;
+     width: 1000px;
+     zoom: 1;
+ }
+ 
+ .center {
+     text-align: center;
+ }
+ img {
+     max-width: 100%;
+ }
+
+ .ayoa_Views {
+     padding-top: 40px;
+      padding-bottom: 40px;
+     position: relative;
+  
+ }
+
+ .float {
+     animation-name: float;
+     animation-duration: 5s;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+     margin-top: 5px;
+     margin-left: 30px;
+     animation-timing-function: ease-in-out;
+ }
+
+.contain {
+ margin-left: auto;
+ margin-right: auto;
+ width: 1000px;
+}
+
+.ayoa_Views h2{
+ border-bottom: none;
+ padding-bottom: 10px;
+ display: inline-block;
+ margin-bottom: 30px;
+}
+
+ h2 {
+     font-weight: lighter;
+ }
+.makeTxtCtr {
+    text-align: center;
+}
+.secHeading {
+ margin-top: 30px;
+ font-size: 50px;
+}
+
+h1, h2, h3, h5, h6 {
+    clear:both;
+     
+}
+.headerImg {
+    padding : 50px;
+    justify-content: center;
+     display: flex;
+     position: relative;
+    margin-top: 0px;     
+}
+.headerImgPortrait {
+    width: 88vmin;
+    height: 50vmin;
+     max-width: 1000px;
+     max-height: 500px;
+}
+.ayoaViews {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position:relative;
+}
+ .float {
+     animation-name: float;
+     animation-duration: 5s;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+     margin-left: 30px;
+     margin-top: 5px;
+     animation-timing-function: ease-in-out;
+ }
+ .img {
+     max-width: 100%;
+ }
+ .ayoaViews h2 {
+    border-bottom: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+ }
+  
+ .headingSec {
+     font-size: 55px;
+     margin-top: 30px;
+ }
+ .makeTxtCtr {
+     text-align: center;;
+ }
+  strong {
+     font-weight:bold;
+ }
+ 
+ .wholeTab {
+     left: 50%;
+     transform: translateX(-50%);
+     padding-bottom: 50px;
+     min-width: 150px;
+     position: relative;
+ }
+ .wholeTab ul{
+     padding-left: 0;
+     display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    flex-wrap: wrap;
+    -webkit-box-align: end;
+    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+ }
+ ul {
+     list-style: disc;
+ }
+ .wholeTab input  [name="btn-control"] {
+    display: none;
+ }
+ input[type="radio"] {
+     box-sizing: border-box;
+     padding: 0;
+     cursor:default;
+     appearance: auto;
+ }
+ input {
+     background: #f9f9f9;
+     margin: 0;
+     font-size: 12pt;
+     font-weight: 300;
+     color: #5c5c5c;
+     text-align: start;
+     letter-spacing: normal;
+     word-spacing: normal;
+     text-transform: none;
+     text-indent: 0px;
+     text-shadow: none;
+     line-height: 1.4;
+     letter-spacing: normal;
+ }
+ .wholeTab ul li {
+    padding: 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+ }
+ li {
+    display: list-item;
+ }
+ .wholeTab input[name="btn-control"]:nth-of-type(1):checked ~ ul > li:nth-child(1) > label {
+    cursor: default;
+    color: #1893fb;
+}
+
+    .wholeTab ul li label {
+    font-size: 18px;
+    font-weight: bold;
+    color: grey
+     
+}
+.wholeTab ul li label svg {
+    fill: #929daf;
+    height: 1.2em;
+    vertical-align: bottom;
+    margin-right: 0.2em;
+    transition: all 0.2s ease-in-out;
+    display: none;
+}
+ .containerWhite {
+     margin-top: 10px;
+ }
+ .flexSlide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+ }
+  .leftSlide {
+     width:30%;
+ }
+ .leftSlide h3 {
+    font-weight: bold;
+    color: #28a0f3;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 25px;
+    line-height: 120%;
+ }
+  .flexSlide h3 {
+    font-weight: bold;
+    color: #28a0f3;
+    font-size: 42px;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  .newSlide {
+    position: relative;
+    top: -20px;
+    width: 90px;
+  }
+   .flexSlide p {
+       line-height: 34px;
+       color: #3c3c3c !important;
+   }
+   p {
+    margin-bottom: 1.8em;
+    font-size: 15pt;
+    display:block;
+     
+   }
+   .flexSlide .btnSqr {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+   }
+   .rightSlide {
+       width: 40%;
+   }
+   .btnSqr {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 40px;
+    background-color: #1a9ef6;
+    border-radius: 5px;
+    color:white;
+   }
+    .flexSlide a{
+        text-decoration: underline;
+    }
+    .tabPc {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .tabPc > input {
+        display:none;
+    }
+    .wholeTab > input {
+        display:none;
+    }
+    #tab1:checked ~ nav .tab1 label, #tab2:checked ~ nav .tab2 label, #tab3:checked ~ nav .tab3 label, #tab4:checked ~ nav .tab4 label {
+        background: white;
+        color: #111;
+        border: 3px solid #32a1ef;
+        position: relative;
+        transform: scale(1.0) !important;
+        box-shadow: 0 1px 20px rgba(50, 161, 239, 0.6) !important;
+        animation: pulse 1s 0s infinite;
+    }
+    .tabPc ul li label {
+        border-radius: 300px;
+        padding: 10px;
+        float:left;
+        width: 74px;
+        height: 75px;
+       transition: all .2s ease;
+    }
+    label {
+        cursor: default;
+    }
+    .cornStones h2{
+        color: white;
+        border-bottom: 5px solid #32a1ef;
+         padding-bottom: 10px;
+         display: inline-block;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .cornStones {
+         
+        background: linear-gradient(#000F20 0%, #043f5d 100%) #022735 !important;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-color: white;
+    }
+    .cornStones strong {
+     color:white
+  }
+  .tabPc section{
+      clear:both;
+  }
+  section {
+      display:block;
+  }
+  .tabPc section div h3 {
+    font-weight: bold;
+    color: #28a0f3;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .cornStones .tabPc p{
+      color:white;
+  }
+    p {
+        margin-bottom: 1.8em;
+        font-size: 15pt;
+        font-weight: normal;
+        display:block;
+    }
+    .tabPc section div {
+        letter-spacing: 0.3px;
+        width: 100%;
+        text-align: center;
+        color: #444;
+        line-height: 1.8em;
+    } 
+    .ayoaNxtLeft {
+        width: 55%;
+    }
+    .ayoaNxtFlex {
+        display: flex;
+        flex-direction: row;
+        max-width: 1280px;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .ayoaNxtFlex p {
+        color: #ffffff;
+        margin-bottom: 50px;
+        line-height: 32px;
+    }
+    .ayoaNxt {
+        padding-top: 50px;
+         padding-bottom: 50px;
+         background: -webkit-radial-gradient(#03afea 0%, #0483e5 100%) #1ca2fa;
+        background: radial-gradient(#03afea 0%, #0483e5 100%) #1ca2fa;
+    }
+    .ayoaNxt h2  {
+        margin-top: 20px !important;
+        font-size: 55px;
+         max-width: 800px;
+         margin: 0 auto;
+         padding-right: 20px;
+         padding-left: 20px;
+    }
+    .ayoaNxt strong {
+        color: white;
+        font-weight: bold;
+    }
+    .ayoaNxtRight {
+        width: 48%;
+    }
+    .ayoaTxt {
+     margin-right: 40px;
+     margin-left: 40px;
+    }
+     .ayoaReviews p{
+        color: #979797;
+        margin: 10px auto 20px;
+        text-align: center !important;
+        line-height: 32px;
+        font-size: 25px;
+     }
+     .ayoaReviews h2 strong {
+        color: #00a9fd;
+         
+     } 
+      .asterick {
+        font-size: 20px;
+        position: relative;
+        top: -5px;
+      }
+      .ayoaReviews {
+        background: linear-gradient(to bottom, #f7fbfc 0%, #f9fdfe 100%) #f7fbfc;
+        padding-bottom: 50px;
+        border-top: 2px solid #e2e8ea;
+        padding-top: 8px;
+        overflow-x: hidden;
+        background: -webkit-linear-gradient(top, #f7fbfc 0%, #f9fdfe 100%) #f7fbfc;
+      }
+       .ayoaReviewsFlex {
+        display: flex;
+        justify-content: center;
+    }
+       .ayoaReviewsItem {
+        text-align: center;
+        border-right: 1px solid #b9dfe8;
+        padding-right: 20px;
+        padding-left: 20px;
+       }
+       .bannerBtn {
+        background: -webkit-linear-gradient(top, #2bcef9 0%, #0ea5ef 100%) #16b6f3;
+        background: linear-gradient(to bottom, #2bcef9 0%, #0ea5ef 100%) #16b6f3;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 8px 30px;
+       -webkit-border-radius: 4px;
+       -moz-border-radius: 3px;
+        border-radius: 4px;
+        font-size: 14px;
+       display: inline-block;
+       line-height: 16px;
+       position: relative;
+       margin-bottom: 10px;
+       }
+       .Desk {
+           padding-left: 50px;
+       }
+       .bannerBtn img {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+       }
+        
