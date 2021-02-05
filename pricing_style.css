@@ -7,7 +7,7 @@
             padding: 0;
         }
         #cont-pricing{
-            margin-top: 5%;
+            margin-top: 11%;
         }
         #cont-top
         {
@@ -493,6 +493,8 @@
 #feature-table {
     width: 70%;
     margin: auto;
+    -webkit-box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 5px gray;
   }
   #feature-table > div {
     width: 100%;
@@ -541,5 +543,21 @@ float: right;
 position: relative;
 } */
 .tick{
-    width: 10%;
+    width: 18px;
+}
+#annual_bill,#annual_bill2{
+    display: block;
+}
+.margin-top{
+    margin-top: 3%;
+}
+.pric-box
+{
+    text-align: left;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.features-text{
+    font-size: 14px;
+    color: #5c5c5c;
 }

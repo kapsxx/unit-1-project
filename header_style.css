@@ -1,5 +1,7 @@
 #header{
     font-family: "Open Sans", sans-serif;
+    background-color: white;
+    height: 10vh;
 }
 #header > div:nth-child(1){
     float: left;
@@ -61,4 +63,8 @@
 .head-clear{
     clear:both;
 }
-/* Small*/
+#header{
+    top: 0;
+     width: 100%;
+    position: fixed;
+}

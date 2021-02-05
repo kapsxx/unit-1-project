@@ -30,39 +30,7 @@ function itemClick() {
   }
 function generate_feature()
 {
-    // var parent = document.getElementById("disp-features");
-    // var boxes = parent.querySelectorAll('div');
-    // boxes.forEach(function(el) {
-    //   el.remove();
-    // })
-    // for(var i = 1 ; i <= 4 ; i++) {
-    //   for(var j =1; j <= 14; j++) {
-    //     var child = document.createElement('div');
-    //     if(i == 1 & j == 1)
-    //     {
-    //         child.textContent = "Essentials";
-    //     }
-    //     else if(i == 1 & j == 2 )
-    //     child.textContent = ((i-1)*3)+j;
-    //     if (i%2 == 0){
-    //       if (j%2 == 0) {
-    //         child.setAttribute('class', 'white');
-    //       } else {
-    //         child.setAttribute('class', 'black');
-    //       }
-    //     } else {
-    //       if (j%2 == 0) {
-    //         child.setAttribute('class', 'black');
-    //       } else {
-    //         child.setAttribute('class', 'white');
-    //       }
-    //     }
-    //     child.addEventListener('click', itemClick);
-    //     parent.append(child);
-    //   }
-    // }
-    // parent.style.display = 'grid';
-
+   
 }
 btn_monthly.addEventListener('click',monthly_plans);
 btn_monthly.addEventListener('click',yearly_plans);
@@ -78,10 +46,14 @@ function monthly_plans()
 var index = 0;
 function yearly_plans()
 {
-    if(index > 0)
+    var annual_bill =  document.getElementById("annual_bill");
+    var annual_bill2 =  document.getElementById("annual_bill2");
+    
+    if(annual_bill.style.display == "none")
     {
-        document.getElementById("annual_bill").style.display = "block";
-        document.getElementById("annual_bill2").style.display = "block";
+        console.log(annual_bill.style.display);
+        annual_bill.style.display = "block";
+        annual_bill2.style.display = "block";
 
     }
     function enteruser(number)
