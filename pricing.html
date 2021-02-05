@@ -78,7 +78,7 @@
                         <img src="https://www.ayoa.com/wp-content/uploads/2020/07/ayoa_procomputer1.2-1.jpg" alt="pro"/>
                         <h2>Pro</h2>
                         <h2>$10*<span class="small-text">/ user / month</span></h2>
-                        <p>Billed annually</p>
+                        <p id="annual_bill">Billed annually</p>
                         <p>Everything in Basic, plus:</p>
                         <ul>
                             <li>Unlimited boards & elements</li>
@@ -95,7 +95,7 @@
                         <img src="https://www.ayoa.com/wp-content/uploads/2020/11/ayoa_ultimatecomputer.jpg" alt="ultimate"/>
                         <h2>Ultimate</h2>
                         <h2>$10*<span class="small-text">/ user / month</span></h2>
-                        <p>Billed annually</p>
+                        <p id="annual_bill2">Billed annually</p>
                         <p>Everything in Pro, plus:</p>
                         <ul>
                             <li>Google Calendar integration
@@ -124,7 +124,175 @@
                     <p>Full Feature Comparison</p>
                     <button id="feature-btn">Show all features</button>
                 </div>
-               <div class="disp-features"></div>
+               <div id="disp-features">
+                   <div id="feature-table">
+                       <div>
+                           <div class="row first">
+                               <div class="cell ">Essentials</div>
+                               <div class="cell"><img src="https://www.ayoa.com/wp-content/uploads/2020/06/basicicon.png" alt="basic_icon"> Basic</div>
+                               <div class="cell"><img src="https://www.ayoa.com/wp-content/uploads/2020/06/proicon.png" alt="pro_icon"> Pro</div>
+                               <div class="cell"><img src="https://www.ayoa.com/wp-content/uploads/2020/06/ultimateicon.png" alt="ultimate_icon"> Ultimate</div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><p>Task boards</p> </div><br>
+                                    <div class="pric-box"><p>Mind maps</p></div>
+                                    <div class="pric-box"><p>Whiteboards (NEW!) Beta</p></div>
+                                </div>
+                                <div class="cell">5 total<br>50 elements per board*</div>
+                                <div class="cell">Unlimited</div>
+                                <div class="cell">Unlimited</div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><p>Sharing / collaboration</p></div>
+                                </div>
+                                <div class="cell">Unlimited</div>
+                                <div class="cell">Unlimited</div>
+                                <div class="cell">Unlimited</div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><p>Mobile & desktop apps, work offline</p> </div>
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><p>My planner</p></div>
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><p>Ayoa chat</p> </div> 
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><p>Folders</p> </div>
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><span><p>Templates</p></span></div>
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><span><p>Personal templates</p></span> </div>
+                                </div>
+                                <div class="cell">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="cell ">        
+                                    <div class="pric-box"><span><p>Calendar view</p></span></div>
+                                </div>
+                                <div class="cell" ></div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">        
+                                    <div class="pric-box"><span><p>Gantt timeline view</p></span></div>
+                                </div>
+                                <div class="cell" ></div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="cell ">        
+                                    <div class="pric-box"><span><p>File attachments</p></span></div>
+                                </div>
+                                <div class="cell" ></div>
+                                <div class="cell">Up to 20mb per file</div>
+                                <div class="cell">Up to 60mb per file</div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">        
+                                    <div class="pric-box"><span><p>File storage</p></span> </div>
+                                </div>
+                                <div class="cell" ></div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="cell ">
+                                    <div class="pric-box"><span><p>Archiving</p></span> </div>
+                                </div>
+                                <div class="cell" ></div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                                <div class="cell">
+                                    <img class="tick" src="https://www.ayoa.com/wp-content/uploads/2020/06/tick_square@2x.png" alt="tick">
+                                </div>
+                            </div>       
+                        </div>
+                    </div>
+               </div>
                 <div id="special-offer">
                     <div>
                         <img src="https://www.ayoa.com/wp-content/uploads/2020/06/Non_profit_pricing.png" alt="special"/>
