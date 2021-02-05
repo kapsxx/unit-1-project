@@ -236,6 +236,9 @@
         #special-offer{
             color: #009DFF;
         }
+        #bot-part{
+            font-size: 8px;
+        }
         #special-offer > div
         {
             /* height: 50px; */
