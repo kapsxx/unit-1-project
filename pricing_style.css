@@ -482,10 +482,10 @@
 .marg-top{
     padding-top: 100%;
 }
-.btn-users:focus {
+/* .btn-users:focus {
     background-color: #167eb0;
     color: white;
-}
+} */
 
 #disp-features{
      display: none; 
@@ -564,4 +564,10 @@ position: relative;
 .first > div:nth-child(1)
 {
     text-align: left;
+}
+#pro_rate{
+    color: #c036f7;
+}
+#ultimate-rate{
+    color: #f91c6e;
 }
