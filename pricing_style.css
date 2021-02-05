@@ -233,6 +233,9 @@
             margin: auto;
             display: flex;
         }
+        #special-offer{
+            color: #009DFF;
+        }
         #special-offer > div
         {
             /* height: 50px; */
@@ -252,6 +255,7 @@
         #special-offer > div:nth-child(1)
         {
             padding-top: 10%;
+            margin-right: 15%;
         }
         #prod-roadmap{
             text-align: center;

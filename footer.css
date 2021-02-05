@@ -13,7 +13,7 @@ footer#mainFooter {
     display:flex;
     justify-content: center;
     max-width: 1000px;
-    margin: 0 auto 55px !important;
+    margin: 0 auto 60px !important;
 
 }
 .columnFoot {
@@ -21,7 +21,7 @@ footer#mainFooter {
 }
  .listFoot {
     margin: 0px 15px 30px;
-    line-height: 14px;
+    line-height: 15px;
     list-style-type: none;
 }
 .listFoot li {
@@ -29,7 +29,7 @@ footer#mainFooter {
 }
 .listFoot li a {
     color: #8AA2B3;
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: none;
     font-weight: 400; 
 }
@@ -41,7 +41,8 @@ footer#mainFooter {
     color: white;
     font-weight: bold;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 15px;
+
 }
 .ayoaApproval img {
     margin-right: 10px !important;
@@ -49,7 +50,9 @@ footer#mainFooter {
     margin-top: 0px !important;
     margin-bottom: 0px !important;
     max-height: 90px;
-    transition: opacity 0.3s ease-in-out 0s;
+    transition: ease-in-out 0s;
+    opacity: 0.3s;
+
 }
 .ayoaApproval {
     display: flex;
@@ -61,27 +64,130 @@ footer#mainFooter {
     padding-right: 10px;
     width: 100%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
+    .logosFooter {
+        float:left;
+        width: 100%;
+        margin-left: 0px;
+        display: block;
+    }
+    .footLogo {
+        width: 150px;
+        float: none;
+        border: none;
+        border-radius: none;
+        margin: 20px auto;
+        padding-right: 0;
+    }
+    .footLogoSt {
+        width:150px;
+        top: 5px;
+        position: relative;
+        border-radius: 0px;
+        float:none;
+        padding-left: 0;
+        margin: 0;
+
+    }
     .containerFooter {
         display: flex;
-        justify-content: start;
+        justify-content: right;
         text-align: left;
         max-width: 1000px;
-        margin: 0 auto 62px !important;
+        margin: 0 auto 60px !important;
+
         flex-wrap: wrap;
     }
 
     .columnFoot {
-        width: 33%;
+        width: 32%;
     }
     .columnFoot ul {
         padding-left: 22px;
     }
     .ayoaApproval {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 }
-.ayoaApproval img:hover {
-    opacity: 0.5;
-}
- 
+    .ayoaApproval img:hover {
+        opacity: 0.5;
+    }
+    .bottomFooter {
+        width: 100%;
+        border-top: 1.5px solid #003149;
+        
+    }
+    .footLogo {
+     float: left;
+     margin-right: 20px;
+     width: 150px;
+    border-right: 2px solid #223F4C;
+    padding-right: 20px;
+    }
+    .bottomFooter img {
+        margin: 35px auto;
+        display: block;
+    }
+    .footLogoSt {
+        width: 150px;
+        border-radius: 0px;
+        position: relative;
+        top: 5px;
+        padding-left: 20px;
+        float: left;
+    }
+    .logosFooter {
+        margin-left: 50px;
+        display: flex;
+        float:left;
+        
+      
+    }
+    .socialMoov {
+        float: right;
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+     .socialMoov li {
+        display: inline-block;
+        margin-left: 10px;
+     }
+     @media only screen and (max-width: 350px){
+         .columnFoot {
+             width: 100%;
+             text-align: center;
+             text-indent: 0px;
+
+         }
+         .columnFoot ul{
+             padding-left: 0px;
+         }
+     }
+     @media only screen and (max-width:750px){
+         .logosFooter {
+             display:flex;
+             justify-content: center;
+             width: 100%;
+             margin: 0;
+         }
+         .socialMediaLogo {
+             display: flex;
+             justify-content: center;
+             width: 100%;
+         }
+         .socialMoov {
+             display: flex;
+             justify-content;
+             margin:0;
+         }
+         .socialMoov {
+            float: none;
+            margin-left: 0px;
+         }
+         .bottomFooter img {
+             border-radius: 5px;
+             margin: 20px auto;
+             display: block;
+             max-width: 100%
+         }
+     }
