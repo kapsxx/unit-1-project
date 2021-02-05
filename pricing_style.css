@@ -482,3 +482,7 @@
 .marg-top{
     padding-top: 100%;
 }
+.btn-users:focus {
+    background-color: #167eb0;
+    color: white;
+}
