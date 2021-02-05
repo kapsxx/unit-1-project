@@ -486,3 +486,60 @@
     background-color: #167eb0;
     color: white;
 }
+
+#disp-features{
+     display: none; 
+}
+#feature-table {
+    width: 70%;
+    margin: auto;
+  }
+  #feature-table > div {
+    width: 100%;
+    display: table;
+  }
+.row {
+    display: table-row;
+    background: #f8f8f8;
+  }
+  .row:nth-of-type(odd) {
+    background: #fefefe;
+  }
+  .row.first {
+    font-weight: 400;
+    color: #333333;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+.first .cell img {
+	max-height: 28px;
+}
+.cell {
+    padding: 15px 12px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .cell.fe1atbox {
+      text-align: left;
+      max-width: 200px;
+  }
+.fe1atbox .pric-box p {
+	clear: both;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	max-width: 200px;
+	font-size: 16px;
+    float: left;
+}
+/* 
+.f1eatbox {
+top: 5px;
+float: right;
+position: relative;
+} */
+.tick{
+    width: 10%;
+}
