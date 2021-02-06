@@ -70,9 +70,8 @@
         }
         .plan-users > button
         {
-            font-size: 17px;
+            font-size: 130%;
             height: 45px;
-            
             border: 0.2px solid gray;
         }
         #cont-plan > button:nth-child(2),#cont-users > button:nth-child(2)
@@ -87,7 +86,7 @@
         }
         #cont-users > button
         {
-            width: 55px;
+            width: 5%;
         }
         #cont-plan > button
         {
@@ -100,14 +99,17 @@
         }
         #cont-planselect
         {
-            width: 90%;
+            width: 80%;
             margin: auto;
             display: grid;
             grid-template-columns:repeat(3,30%) ;
             /* grid-template-rows: 60%; */
-            gap: 20px;
+            gap: 3%;
             text-align: center;
             margin-top: 5%;
+        }
+        #cont-planselect  img{
+            width: 100%;
         }
         #cont-planselect > div:nth-child(1)
         {
@@ -283,6 +285,9 @@
             font-size: 20px;
             margin-top: 5%;
         }
+        .video img{
+            width: 90%;
+        }
         #email{
             width: 40%;
             text-align: center;
@@ -356,7 +361,7 @@
             padding-bottom: 5%;
         }
         #bottom-box{
-            width: 90%;
+            width: 80%;
             margin: auto;
             display: grid;
             grid-template: "one one one one one"
@@ -364,6 +369,9 @@
             "seven seven seven seven seven";
             gap: 20px;
             /* padding: 10%; */
+        }
+        #bottom-box img{
+            width: 100%;
         }
         #bottom-box > div
         {
@@ -489,11 +497,6 @@
 .marg-top{
     padding-top: 100%;
 }
-/* .btn-users:focus {
-    background-color: #167eb0;
-    color: white;
-} */
-
 #disp-features{
      display: none; 
 }
@@ -577,4 +580,74 @@ position: relative;
 }
 #ultimate-rate{
     color: #f91c6e;
+}
+@media only screen and (max-width: 880px) {
+    #header{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    #cont-planselect
+        {
+            grid:"one"
+            "two"
+            "three";
+            margin-bottom: 30%;
+        }
+        #cont-planselect > div:nth-child(1)
+        {
+            width: 70%;
+            grid-area: one;
+        }
+        #cont-planselect > div:nth-child(2)
+        {
+            width: 70%;
+            grid-area: two;
+        }
+        #cont-planselect > div:nth-child(3)
+        {
+            overflow-wrap:normal;
+            width: 70%;
+            grid-area: three;
+        }
+        .plan-users> p:nth-child(1){
+            white-space:nowrap;
+        }
+}
+
+@media only screen and (max-width: 860px) {
+    #cont-top
+    {
+        width: 70%;
+        grid-template:"one"
+        "two" ;
+    }
+    .plan-users > button
+        {
+            font-size: 100%;
+        }
+        #bottom-box{
+            grid-template: "one"
+            "two"
+            "four"
+            "four"
+            "six"
+            "seven";
+        }
+        #cont-planselect > div:nth-child(1)
+        {
+            height: 105%;
+            width: 80vw;
+        }
+        #cont-planselect > div:nth-child(2)
+        {
+            height: 105%;
+            width: 80vw;
+        }
+        #cont-planselect > div:nth-child(3)
+        {
+            height: 102%;
+            width: 80vw;
+        }
 }
