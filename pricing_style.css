@@ -603,6 +603,7 @@ position: relative;
         #cont-planselect > div:nth-child(2)
         {
             width: 70%;
+            height: 90vh;
             grid-area: two;
         }
         #cont-planselect > div:nth-child(3)
@@ -613,6 +614,9 @@ position: relative;
         }
         .plan-users> p:nth-child(1){
             white-space:nowrap;
+        }
+        #sixtyplus{
+            font-size: 8px;
         }
 }
 
