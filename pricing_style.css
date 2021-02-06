@@ -590,7 +590,7 @@ position: relative;
 @media only screen and (max-width: 675px) {
     #cont-planselect
         {
-            grid:"one"
+            grid-template:"one"
             "two"
             "three";
             margin-bottom: 30%;
@@ -623,6 +623,7 @@ position: relative;
         grid-template:"one"
         "two" ;
     }
+    
     .plan-users > button
         {
             font-size: 100%;
@@ -635,19 +636,28 @@ position: relative;
             "six"
             "seven";
         }
+        #cont-planselect
+        {
+            width: 70%;
+            grid-template:"one"
+            "two"
+            "three";
+            margin: auto;
+            margin-bottom: 30%;
+        }
+        #cont-planselect img{
+            width: 100%;
+        }
         #cont-planselect > div:nth-child(1)
         {
-            height: 105%;
-            width: 80vw;
+            grid-area: one;
         }
         #cont-planselect > div:nth-child(2)
         {
-            height: 105%;
-            width: 80vw;
+            grid-area: two;
         }
         #cont-planselect > div:nth-child(3)
         {
-            height: 102%;
-            width: 80vw;
+            grid-area: three;
         }
 }
